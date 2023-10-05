@@ -3,6 +3,20 @@
 If used for any purpose, the genetic information collected and documented here must be credited to Sarah Mohr, owner of Sarah’s Snake Shop. Otherwise, enjoy. 
 
 
+# How to View the Data Diagram
+
+Option 1: 
+
+1. View FlareLine2023.png
+
+
+Option 2: 
+
+1. Navigate to https://play.d2lang.com
+2. Copy the text in flareline.d2lang 
+3. Pasted text in the live editor of play.d2lang.com
+4. Press compile
+
 Facebook: https://www.facebook.com/sarahs.snake.shop
 Website: https://www.sarahssnakeshop.com/
 Email: sarahssnakeshop@gmail.com
