@@ -13,7 +13,7 @@ Option 1:
 Option 2: 
 
 1. Navigate to https://play.d2lang.com
-2. Copy the text in flareline.d2lang 
+2. Copy the text in flareline.d2
 3. Pasted text in the live editor of play.d2lang.com
 4. Press compile
 
