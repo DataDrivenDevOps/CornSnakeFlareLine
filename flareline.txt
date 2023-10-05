@@ -1,0 +1,128 @@
+# Last updated 10-05-2023
+# To see the visual diagram see the FlareLine2023.png attached
+
+# Gen 1 Snake Parents
+gen1: Gen1 {
+  tink: Tink (F. Granite)
+
+  flare: Flare (M. Masque)
+  bigmama: BigMama (F. RC Ghost )
+}
+
+# Gen 2 Snake Parents
+gen2: Gen2 {
+  # ## Gen 2 Hitch is Fresh Blood only for this one
+  freshblood: {
+    hitch: Hitch (M. Charcoal)
+  }
+  clutch40: {
+    blackfire: Blackfire (F. Carbon Supermasque)
+  }
+
+  clutch24: {
+    pyra: Pyra (F. Classic) 2015-24
+  }
+  clutch66: {
+    clutch66: No Branch
+  }
+  clutch28: {
+    clutch28: No Branch
+  }
+}
+
+# Gen 1 to Gen 2 breeding pairs
+# # Bigmama was breeded with Flare to create Pyra
+gen1.flare -> gen2.clutch24
+gen1.bigmama -> gen2.clutch24
+
+# Tink was breeded with Flare which created Blackfire
+gen1.tink -> gen2.clutch40
+gen1.flare -> gen2.clutch40
+
+# Gen 3 Snake Parents
+# sprite, cola, pepsi, and barq are siblings
+gen3: Gen 3 {
+  clutch77: clutch77 2021.77 {
+    sprite: Sprite (F. Ghost Clutch)
+    cola: Cola (F. Charcoal Clutch)
+    pepsi: Pepsi (M. Charcoal)
+    barq: Barq (M. Anery Masque)
+  }
+  clutch72: clutch72 2020.72 {
+    phonenix: Phoenix (F. Charcoal Masque)
+    rosefire: Rosefire (F. Masque)
+    aruna: Aruna (F. Masque)
+  }
+  clutch73: clutch73 - 2020.73 {
+    tequila: Tequila (F. Charcoal SK)
+    moonshine: Moonshine (F. Charcoal Masque)
+  }
+  clutch68: clutch68 2020.68 {
+    absinthe: Absinthe (F. Charcoal SK)
+  }
+  clutch65: clutch65 2020.65 {
+    clutch65: No branch
+  }
+  clutch49: clutch49 2020.49 {
+    clutch49: No branch
+  }
+
+  freshblood: fresh blood - 2023.fresh {
+    nicorn: Nicorn (F. Masque) - 2023.nicorn
+    solara: Solara (F. SK Hypo) - 2023.solara
+    nickel: Nickel (M. Buf Anery) - 2023.nickel
+    bjorn: Bjorn (F. Okeetee) - 2023.bjorn
+  }
+}
+
+# Gen 4!
+gen4: gen4 {
+  clutch97: clutch97 2023.97 {
+    Luthien: Luthien (F. SK Charcoal) -
+  }
+  clutch89: clutch89 2023.89 {
+    clutch89: TBD
+  }
+  clutch96: clutch96 2023.96 {
+    clutch96: TBD
+  }
+  clutch94: clutch94 2023.94 {
+    river: River (F. Buf Sunkissed) - 2023
+  }
+}
+
+# clutch77
+# Gen 2 Fresh Blood with old blood
+gen2.freshblood.hitch -> gen3.clutch77
+gen2.clutch24.pyra -> gen3.clutch77
+
+# clutch73
+gen2.clutch24.pyra -> gen3.clutch73
+gen1.flare -> gen3.clutch73
+
+# clutch 68
+gen2.clutch24.pyra -> gen3.clutch68
+
+# clutch 65
+gen2.clutch24.pyra -> gen3.clutch65
+
+# clutch 49 
+gen2.clutch24.pyra -> gen3.clutch49
+
+# clutch 72 
+gen1.flare -> gen3.clutch72
+gen2.clutch40.blackfire -> gen3.clutch72
+
+# Gen 4 now!
+
+gen3.clutch77.pepsi -> gen4.clutch97
+gen3.freshblood.nicorn -> gen4.clutch97
+
+gen3.clutch77.barq -> gen4.clutch89
+gen3.freshblood.solara -> gen4.clutch89
+
+gen3.freshblood.bjorn -> gen4.clutch96
+gen3.clutch77.barq -> gen4.clutch96
+
+gen3.freshblood.nickel -> gen4.clutch94
+gen3.clutch68.absinthe -> gen4.clutch94
