@@ -1,9 +1,9 @@
-# CornSnakeFlareLine
+# CornSnake Flare Line Family Genetics
 
 If used for any purpose, the genetic information collected and documented here must be credited to Sarah Mohr, owner of Sarah’s Snake Shop. Otherwise, enjoy. 
 
+# How do I review the genetics data and image on the Data Diagram?
 
-# How to View the Data Diagram
 
 Option 1: 
 
@@ -17,9 +17,15 @@ Option 2:
 3. Pasted text in the live editor of play.d2lang.com
 4. Press compile
 
-Facebook: https://www.facebook.com/sarahs.snake.shop
-Website: https://www.sarahssnakeshop.com/
-Email: sarahssnakeshop@gmail.com
+| Platform | Link |
+|---|---|
+| Facebook | [https://www.facebook.com/sarahs.snake.shop](https://www.facebook.com/sarahs.snake.shop) |
+| Website | [https://www.sarahssnakeshop.com/](https://www.sarahssnakeshop.com/) |
+| Email | sarahssnakeshop@gmail.com |
+| | # 💡 Come Explore Cornsnake Genetics with us! Weekly YouTube Videos💡|
+| YouTube | [https://www.youtube.com/SarahsSnakeShop](https://www.youtube.com/user/SCMartin27/videos) | 
+
+
 
 # About Sarah Mohr
  
